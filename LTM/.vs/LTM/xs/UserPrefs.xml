@@ -1,17 +1,40 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{15742ABF-F71C-4856-8363-9C3487AFB2DA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebUI/Controllers/WeatherForecastController.cs">
+    <Files>
+      <File FileName="WebUI/Controllers/WeatherForecastController.cs" Line="25" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="LTM" selected="True" />
+          <Node name="LTM" expanded="True">
+            <Node name="WebUI" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="WeatherForecastController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="LTM" expanded="True">
+            <Node name="WebUI" expanded="True">
+              <Node name="WebUI" expanded="True">
+                <Node name="Controllers" expanded="True">
+                  <Node name="WebUI.Controllers.WeatherForecastController" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WebUI PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

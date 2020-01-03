@@ -23,6 +23,10 @@ namespace WebUI.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// Get static WeatherForecast
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
