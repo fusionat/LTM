@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Application.Project.Commands.NewProject;
+using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -9,7 +11,7 @@ namespace WebUI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastController : ControllerBase
+    public class WeatherForecastController : BaseController
     {
         private static readonly string[] Summaries = new[]
         {
@@ -30,6 +32,10 @@ namespace WebUI.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            var g = Mediator.Send(new NewProjectCommand()
+            {
+                ProjectName = "New Project"
+            });
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
                 {
