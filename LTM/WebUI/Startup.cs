@@ -28,7 +28,7 @@ namespace WebUI
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
+        {        
             services.AddApplication();
             services.AddControllers();
             services.AddSwaggerGen(s =>
@@ -56,7 +56,7 @@ namespace WebUI
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Light Task Manager API V1");
-                c.RoutePrefix = String.Empty;
+                c.RoutePrefix = string.Empty;
             });
             
             app.UseHttpsRedirection();

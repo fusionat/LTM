@@ -1,6 +1,7 @@
 using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
 using MediatR;
+using DataLayer;
 
 namespace Application
 {
@@ -9,6 +10,7 @@ namespace Application
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
             services.AddMediatR(Assembly.GetExecutingAssembly());
+            services.AddDataLayer();
             return services;
         }           
     }

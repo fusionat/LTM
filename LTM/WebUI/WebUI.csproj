@@ -17,11 +17,7 @@
       <PackageReference Include="FluentValidation.AspNetCore" Version="8.6.1" />
       <PackageReference Include="FluentValidation" Version="8.6.1" />
     </ItemGroup>
-
-
     <ItemGroup>
-      <ProjectReference Include="..\Application\Application.csproj">
-        <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-      </ProjectReference>
+      <ProjectReference Include="..\Application\Application.csproj" />
     </ItemGroup>
 </Project>

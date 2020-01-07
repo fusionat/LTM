@@ -1,12 +1,12 @@
 ﻿<Properties StartupConfiguration="{15742ABF-F71C-4856-8363-9C3487AFB2DA}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebUI/Startup.cs">
     <Files>
       <File FileName="WebUI/Controllers/WeatherForecastController.cs" Line="32" Column="18" />
-      <File FileName="Application/Project/Commands/NewProject/NewProjectCommand.cs" Line="1" Column="1" />
-      <File FileName="Application/Project/Commands/NewProject/NewProjectCommandHandler.cs" Line="15" Column="2" />
-      <File FileName="WebUI/Controllers/BaseController.cs" Line="15" Column="58" />
-      <File FileName="WebUI/Startup.cs" Line="33" Column="39" />
-      <File FileName="WebUI/Program.cs" Line="1" Column="1" />
+      <File FileName="Application/Project/Commands/NewProject/NewProjectCommand.cs" />
+      <File FileName="Application/Project/Commands/NewProject/NewProjectCommandHandler.cs" />
+      <File FileName="WebUI/Controllers/BaseController.cs" />
+      <File FileName="WebUI/Startup.cs" Line="23" Column="10" />
+      <File FileName="WebUI/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,9 +20,8 @@
               </Node>
             </Node>
             <Node name="WebUI" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="WeatherForecastController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
