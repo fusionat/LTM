@@ -10,8 +10,8 @@ namespace DataLayer
         public DbFactory(IServiceProvider serviceProvider)
         {
             _dataContext = serviceProvider.GetService<ILtmDataContext>() as LtmDataContext;
-
         }
+
         public LtmDataContext Get()
         {
             return _dataContext;

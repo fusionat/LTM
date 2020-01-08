@@ -1,4 +1,3 @@
-using System.Text.RegularExpressions;
 using Domain;
 
 namespace DataLayer.Repositories
@@ -9,7 +8,7 @@ namespace DataLayer.Repositories
         {
         }
     }
-    
+
     public interface IProjectRepository : IRepository<Project>
     {
     }

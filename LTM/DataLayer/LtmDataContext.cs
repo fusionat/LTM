@@ -12,14 +12,9 @@ namespace DataLayer
 
         public DbSet<Project> Projects { get; set; }
 
-        public DbContext Get()
-        {
-            return this;
-        }
-
         public void Save()
         {
-            this.SaveChanges();
+            SaveChanges();
         }
     }
 }

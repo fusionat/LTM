@@ -4,6 +4,6 @@ namespace Application.ProjectHandler.Models
 {
     public class ProjectListVm
     {
-        public IList<ProjectDto> Projects {get;set;}
+        public IList<ProjectDto> Projects { get; set; }
     }
 }

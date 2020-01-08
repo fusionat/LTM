@@ -1,4 +1,3 @@
-using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
@@ -11,8 +10,9 @@ namespace Application.ProjectHandler.Queries.GetProjects
 {
     public class GetProjectsQueryHandler : IRequestHandler<GetProjectsQuery, ProjectListVm>
     {
-        private ILtmDataContext _ltmContext;
         private readonly IProjectRepository _projectRepository;
+        private ILtmDataContext _ltmContext;
+
         public GetProjectsQueryHandler(ILtmDataContext ltm, IProjectRepository projectRepository)
         {
             _ltmContext = ltm;
@@ -21,15 +21,15 @@ namespace Application.ProjectHandler.Queries.GetProjects
 
         public async Task<ProjectListVm> Handle(GetProjectsQuery request, CancellationToken cancellationToken)
         {
-           var projectList = new ProjectListVm();
-           projectList.Projects = _projectRepository.GetAll()
-               .Select(s=> 
-                    new ProjectDto()
+            var projectList = new ProjectListVm();
+            projectList.Projects = _projectRepository.GetAll()
+                .Select(s =>
+                    new ProjectDto
                     {
                         Id = s.Id,
                         ProjectName = s.ProjectName
                     }).ToList();
-            return projectList;                    
+            return projectList;
         }
     }
 }

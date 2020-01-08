@@ -5,6 +5,5 @@ namespace Application.ProjectHandler.Queries.GetProjects
 {
     public class GetProjectsQuery : IRequest<ProjectListVm>
     {
-        
     }
 }

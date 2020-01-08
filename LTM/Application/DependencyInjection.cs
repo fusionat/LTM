@@ -1,7 +1,7 @@
 using System.Reflection;
-using Microsoft.Extensions.DependencyInjection;
-using MediatR;
 using DataLayer;
+using MediatR;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Application
 {
@@ -12,6 +12,6 @@ namespace Application
             services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddDataLayer();
             return services;
-        }           
+        }
     }
 }
