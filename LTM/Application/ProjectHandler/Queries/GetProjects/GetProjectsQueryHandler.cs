@@ -4,24 +4,26 @@ using System.Threading;
 using System.Threading.Tasks;
 using Application.ProjectHandler.Models;
 using DataLayer;
+using DataLayer.Repositories;
 using MediatR;
 
 namespace Application.ProjectHandler.Queries.GetProjects
 {
     public class GetProjectsQueryHandler : IRequestHandler<GetProjectsQuery, ProjectListVm>
     {
-        public ILtmDataContext _ltmContext { get; }
-        public GetProjectsQueryHandler(ILtmDataContext ltm)
+        private ILtmDataContext _ltmContext;
+        private readonly IProjectRepository _projectRepository;
+        public GetProjectsQueryHandler(ILtmDataContext ltm, IProjectRepository projectRepository)
         {
             _ltmContext = ltm;
+            _projectRepository = projectRepository;
         }
 
         public async Task<ProjectListVm> Handle(GetProjectsQuery request, CancellationToken cancellationToken)
         {
            var projectList = new ProjectListVm();
-           projectList.Projects = _ltmContext.Projects
-            .Where(w=> w.Id != Guid.Empty)
-                .Select(s=> 
+           projectList.Projects = _projectRepository.GetAll()
+               .Select(s=> 
                     new ProjectDto()
                     {
                         Id = s.Id,

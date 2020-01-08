@@ -8,12 +8,13 @@ namespace DataLayer
         public LtmDataContext(DbContextOptions<LtmDataContext> options)
             : base(options)
         {
-
         }
 
-        public DbSet<Project> Projects
+        public DbSet<Project> Projects { get; set; }
+
+        public DbContext Get()
         {
-            get; set;
+            return this;
         }
 
         public void Save()
