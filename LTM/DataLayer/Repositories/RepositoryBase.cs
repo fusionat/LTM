@@ -23,7 +23,6 @@ namespace DataLayer.Repositories
         public virtual void Update(T entity)
         {
             _dbset.Attach(entity);
-            _dataContext.Entry(entity).State = EntityState.Modified;
         }
 
         public virtual void Delete(T entity)

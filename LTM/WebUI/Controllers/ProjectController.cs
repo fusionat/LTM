@@ -5,7 +5,6 @@ using Application.ProjectHandler.Queries.GetProjects;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using WebUI.ViewModel.Project;
 
 namespace WebUI.Controllers
 {
@@ -43,12 +42,9 @@ namespace WebUI.Controllers
         /// <returns></returns>
         [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public async Task<ActionResult<ProjectDto>> NewProject(ProjectPost newProject)
+        public async Task<ActionResult<ProjectDto>> NewProject(NewProjectCommand newProject)
         {
-            var createdProject = await Mediator.Send(new NewProjectCommand
-            {
-                ProjectName = newProject.ProjectName
-            });
+            var createdProject = await Mediator.Send(newProject);
 
             return Ok(createdProject);
         }

@@ -1,27 +1,38 @@
 ﻿<Properties StartupConfiguration="{15742ABF-F71C-4856-8363-9C3487AFB2DA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebUI/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Application/ProjectHandler/Commands/NewProject/NewProjectCommandHandler.cs">
     <Files>
-      <File FileName="WebUI/Controllers/WeatherForecastController.cs" Line="32" Column="18" />
-      <File FileName="Application/Project/Commands/NewProject/NewProjectCommand.cs" />
-      <File FileName="Application/Project/Commands/NewProject/NewProjectCommandHandler.cs" />
-      <File FileName="WebUI/Controllers/BaseController.cs" />
+      <File FileName="WebUI/Controllers/BaseController.cs" Line="1" Column="1" />
       <File FileName="WebUI/Startup.cs" Line="23" Column="10" />
       <File FileName="WebUI/Program.cs" />
+      <File FileName="WebUI/Controllers/ProjectController.cs" Line="7" Column="36" />
+      <File FileName="Domain/IServiceCollection.cs" Line="1" Column="1" />
+      <File FileName="Domain/Project.cs" Line="1" Column="1" />
+      <File FileName="DataLayer/DbFactory.cs" Line="1" Column="1" />
+      <File FileName="DataLayer/DependencyInjection.cs" Line="1" Column="1" />
+      <File FileName="DataLayer/IDbFactory.cs" Line="1" Column="1" />
+      <File FileName="DataLayer/ILtmDataContext.cs" Line="1" Column="1" />
+      <File FileName="DataLayer/LtmDataContext.cs" Line="1" Column="1" />
+      <File FileName="DataLayer/Repositories/IRepository.cs" Line="1" Column="1" />
+      <File FileName="DataLayer/Repositories/ProjectRepository.cs" Line="1" Column="1" />
+      <File FileName="DataLayer/Repositories/RepositoryBase.cs" Line="25" Column="35" />
+      <File FileName="Application/ProjectHandler/Commands/NewProject/NewProjectCommandHandler.cs" Line="18" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LTM" expanded="True">
             <Node name="Application" expanded="True">
-              <Node name="Project" expanded="True">
+              <Node name="ProjectHandler" expanded="True">
                 <Node name="Commands" expanded="True">
-                  <Node name="NewProject" expanded="True" />
+                  <Node name="NewProject" expanded="True">
+                    <Node name="NewProjectCommandHandler.cs" selected="True" />
+                  </Node>
                 </Node>
               </Node>
             </Node>
+            <Node name="Infrastructure" expanded="True" />
             <Node name="WebUI" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
