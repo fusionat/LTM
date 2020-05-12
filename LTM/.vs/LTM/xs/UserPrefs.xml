@@ -1,21 +1,8 @@
-﻿<Properties StartupConfiguration="{15742ABF-F71C-4856-8363-9C3487AFB2DA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Application/ProjectHandler/Commands/NewProject/NewProjectCommandHandler.cs">
+﻿<Properties StartupConfiguration="{15742ABF-F71C-4856-8363-9C3487AFB2DA}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebUI/WebUI.csproj">
     <Files>
-      <File FileName="WebUI/Controllers/BaseController.cs" Line="1" Column="1" />
-      <File FileName="WebUI/Startup.cs" Line="23" Column="10" />
-      <File FileName="WebUI/Program.cs" />
-      <File FileName="WebUI/Controllers/ProjectController.cs" Line="7" Column="36" />
-      <File FileName="Domain/IServiceCollection.cs" Line="1" Column="1" />
-      <File FileName="Domain/Project.cs" Line="1" Column="1" />
-      <File FileName="DataLayer/DbFactory.cs" Line="1" Column="1" />
-      <File FileName="DataLayer/DependencyInjection.cs" Line="1" Column="1" />
-      <File FileName="DataLayer/IDbFactory.cs" Line="1" Column="1" />
-      <File FileName="DataLayer/ILtmDataContext.cs" Line="1" Column="1" />
-      <File FileName="DataLayer/LtmDataContext.cs" Line="1" Column="1" />
-      <File FileName="DataLayer/Repositories/IRepository.cs" Line="1" Column="1" />
-      <File FileName="DataLayer/Repositories/ProjectRepository.cs" Line="1" Column="1" />
-      <File FileName="DataLayer/Repositories/RepositoryBase.cs" Line="25" Column="35" />
-      <File FileName="Application/ProjectHandler/Commands/NewProject/NewProjectCommandHandler.cs" Line="18" Column="31" />
+      <File FileName="Application/ProjectHandler/Queries/GetProjects/GetProjectsQueryHandler.cs" Line="22" Column="42" />
+      <File FileName="WebUI/WebUI.csproj" Line="4" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -23,17 +10,12 @@
           <Node name="LTM" expanded="True">
             <Node name="Application" expanded="True">
               <Node name="ProjectHandler" expanded="True">
-                <Node name="Commands" expanded="True">
-                  <Node name="NewProject" expanded="True">
-                    <Node name="NewProjectCommandHandler.cs" selected="True" />
-                  </Node>
+                <Node name="Queries" expanded="True">
+                  <Node name="GetProjects" expanded="True" />
                 </Node>
               </Node>
             </Node>
-            <Node name="Infrastructure" expanded="True" />
-            <Node name="WebUI" expanded="True">
-              <Node name="Controllers" expanded="True" />
-            </Node>
+            <Node name="WebUI" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -43,8 +25,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/alisher/src/LTM/LTM/WebUI/Controllers/WeatherForecastController.cs" relfile="WebUI/Controllers/WeatherForecastController.cs" line="39" column="1" />
-      <Breakpoint file="/Users/alisher/src/LTM/LTM/Application/Project/Commands/NewProject/NewProjectCommandHandler.cs" relfile="Application/Project/Commands/NewProject/NewProjectCommandHandler.cs" line="12" column="1" />
+      <Breakpoint file="/Users/alisher/Projects/LTM/LTM/WebUI/Controllers/WeatherForecastController.cs" relfile="WebUI/Controllers/WeatherForecastController.cs" line="39" column="1" />
+      <Breakpoint file="/Users/alisher/Projects/LTM/LTM/Application/Project/Commands/NewProject/NewProjectCommandHandler.cs" relfile="Application/Project/Commands/NewProject/NewProjectCommandHandler.cs" line="12" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
