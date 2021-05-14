@@ -23,7 +23,9 @@ namespace WebUI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddApplication();
+            services.AddRetain();
+            services.AddEMP();
+            
             services.AddControllers();
             services.AddSwaggerGen(s =>
             {
@@ -50,7 +52,7 @@ namespace WebUI
                 c.RoutePrefix = string.Empty;
             });
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 

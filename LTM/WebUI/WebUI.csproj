@@ -18,6 +18,7 @@
       <PackageReference Include="FluentValidation" Version="8.6.1" />
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\Application\Application.csproj" />
+      <ProjectReference Include="..\Application\EMP.csproj" />
+      <ProjectReference Include="..\Retain\Retain.csproj" />
     </ItemGroup>
 </Project>

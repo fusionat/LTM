@@ -32,7 +32,7 @@ namespace WebUI.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<IActionResult> GetProjects()
         {
-            var list = await Mediator.Send(new GetProjectsQuery());
+            var list = await Mediator.Send(new Retain.ProjectHandler.Queries.GetProjects.GetProjectsQuery());
             return Ok(list);
         }
 

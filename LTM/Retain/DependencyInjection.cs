@@ -7,7 +7,7 @@ namespace Application
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddEMP(this IServiceCollection services)
+        public static IServiceCollection AddRetain(this IServiceCollection services)
         {
             services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddDataLayer();
