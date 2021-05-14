@@ -1,8 +1,9 @@
 using System.Threading;
 using System.Threading.Tasks;
-using Application.ProjectHandler.Models;
 using DataLayer;
 using DataLayer.Repositories;
+using EMP.Handlers.ProjectHandler.Commands.NewProject;
+using EMP.Handlers.ProjectHandler.Models;
 using MediatR;
 using LtmProject = Domain.Project;
 

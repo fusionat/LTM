@@ -1,6 +1,6 @@
 using System;
 
-namespace Application.ProjectHandler.Models
+namespace EMP.Handlers.ProjectHandler.Models
 {
     public class ProjectDto
     {

@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retain", "Retain\Retain.csproj", "{BD47D9EC-9D46-460A-94EE-A528B85653FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMP.Handlers", "EMP.Handlers\EMP.Handlers.csproj", "{D5A2638A-7A98-45D7-9810-FE9ADB3C0E70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retain.Handlers", "Retain.Handlers\Retain.Handlers.csproj", "{62409142-15F6-4C87-BD60-D7928952D8A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +50,14 @@ Global
 		{BD47D9EC-9D46-460A-94EE-A528B85653FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD47D9EC-9D46-460A-94EE-A528B85653FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD47D9EC-9D46-460A-94EE-A528B85653FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A2638A-7A98-45D7-9810-FE9ADB3C0E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A2638A-7A98-45D7-9810-FE9ADB3C0E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A2638A-7A98-45D7-9810-FE9ADB3C0E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A2638A-7A98-45D7-9810-FE9ADB3C0E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62409142-15F6-4C87-BD60-D7928952D8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62409142-15F6-4C87-BD60-D7928952D8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62409142-15F6-4C87-BD60-D7928952D8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62409142-15F6-4C87-BD60-D7928952D8A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

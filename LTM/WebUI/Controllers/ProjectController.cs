@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using Application.ProjectHandler.Commands.NewProject;
-using Application.ProjectHandler.Models;
-using Application.ProjectHandler.Queries.GetProjects;
+using EMP.Handlers.ProjectHandler.Commands.NewProject;
+using EMP.Handlers.ProjectHandler.Models;
+using EMP.Handlers.ProjectHandler.Queries.GetProjects;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -32,7 +32,7 @@ namespace WebUI.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<IActionResult> GetProjects()
         {
-            var list = await Mediator.Send(new Retain.ProjectHandler.Queries.GetProjects.GetProjectsQuery());
+            var list = await Mediator.Send(new GetProjectsQuery());
             return Ok(list);
         }
 

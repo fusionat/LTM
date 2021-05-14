@@ -20,6 +20,7 @@
     <ItemGroup>
       <ProjectReference Include="..\DataLayer\DataLayer.csproj" />
       <ProjectReference Include="..\Domain\Domain.csproj" />
+      <ProjectReference Include="..\EMP.Handlers\EMP.Handlers.csproj" />
     </ItemGroup>
 
 </Project>

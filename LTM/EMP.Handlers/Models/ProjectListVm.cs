@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Retain.ProjectHandler.Models
+namespace EMP.Handlers.ProjectHandler.Models
 {
     public class ProjectListVm
     {

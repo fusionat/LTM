@@ -1,7 +1,8 @@
-using Application.ProjectHandler.Models;
+
+using EMP.Handlers.ProjectHandler.Models;
 using MediatR;
 
-namespace Application.ProjectHandler.Commands.NewProject
+namespace EMP.Handlers.ProjectHandler.Commands.NewProject
 {
     public class NewProjectCommand : IRequest<ProjectDto>
     {
