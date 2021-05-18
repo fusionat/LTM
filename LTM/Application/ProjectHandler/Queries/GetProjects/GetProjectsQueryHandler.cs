@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using DataLayer;
 using DataLayer.Repositories;
-using EMP.Handlers.ProjectHandler.Models;
+using DtoModels.EMP;
 using EMP.Handlers.ProjectHandler.Queries.GetProjects;
 using MediatR;
 

@@ -1,5 +1,4 @@
-
-using EMP.Handlers.ProjectHandler.Models;
+using DtoModels.EMP;
 using MediatR;
 
 namespace EMP.Handlers.ProjectHandler.Commands.NewProject

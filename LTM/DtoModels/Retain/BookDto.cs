@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Retain.Handlers.Models
+namespace DtoModels.Retain
 {
     public class BookDto
     {

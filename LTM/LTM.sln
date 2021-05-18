@@ -20,6 +20,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMP.Handlers", "EMP.Handler
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retain.Handlers", "Retain.Handlers\Retain.Handlers.csproj", "{62409142-15F6-4C87-BD60-D7928952D8A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DtoModels", "DtoModels\DtoModels.csproj", "{13BB9145-57C9-43EB-83F0-DFA9365102CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{62409142-15F6-4C87-BD60-D7928952D8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62409142-15F6-4C87-BD60-D7928952D8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62409142-15F6-4C87-BD60-D7928952D8A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13BB9145-57C9-43EB-83F0-DFA9365102CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13BB9145-57C9-43EB-83F0-DFA9365102CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13BB9145-57C9-43EB-83F0-DFA9365102CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13BB9145-57C9-43EB-83F0-DFA9365102CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

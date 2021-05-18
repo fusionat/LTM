@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
+using DtoModels.EMP;
 using EMP.Handlers.ProjectHandler.Commands.NewProject;
-using EMP.Handlers.ProjectHandler.Models;
 using EMP.Handlers.ProjectHandler.Queries.GetProjects;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
